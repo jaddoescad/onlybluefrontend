@@ -117,7 +117,7 @@ export default function Hero() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="/auth?mode=signup"
+              href="/feed"
               className="inline-flex items-center gap-2 bg-white text-blue-700 px-8 py-4 rounded-full font-semibold text-lg hover:bg-blue-50 transition-all shadow-xl shadow-black/20 hover:scale-105"
             >
               Get Started Free

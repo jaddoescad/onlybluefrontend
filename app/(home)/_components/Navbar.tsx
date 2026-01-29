@@ -66,7 +66,7 @@ export default function Navbar() {
               Log in
             </Link>
             <Link
-              href="/auth?mode=signup"
+              href="/feed"
               className={`px-5 py-2.5 rounded-full font-medium transition-all ${
                 scrolled
                   ? 'bg-blue-600 text-white hover:bg-blue-700'
@@ -122,7 +122,7 @@ export default function Navbar() {
               Log in
             </Link>
             <Link
-              href="/auth?mode=signup"
+              href="/feed"
               className="block bg-blue-600 text-white px-5 py-3 rounded-full font-medium text-center hover:bg-blue-700"
             >
               Get Started
