@@ -10,7 +10,7 @@ import {
   MessageCircle,
   User,
   Briefcase,
-  Users,
+  FolderOpen,
   Bookmark,
   Settings,
   LogOut,
@@ -27,11 +27,10 @@ import {
 
 const navigationItems = [
   { icon: Home, label: 'Home', href: '/feed', active: true },
-  { icon: Search, label: 'Explore', href: '/explore' },
-  { icon: Briefcase, label: 'Jobs', href: '/jobs' },
-  { icon: Users, label: 'Network', href: '/network' },
-  { icon: Bookmark, label: 'Saved', href: '/saved' },
   { icon: User, label: 'Profile', href: '/profile' },
+  { icon: FolderOpen, label: 'Portfolio', href: '/portfolio' },
+  { icon: Search, label: 'Explore', href: '/explore' },
+  { icon: Bookmark, label: 'Saved', href: '/saved' },
 ]
 
 const posts = [
