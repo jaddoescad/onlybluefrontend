@@ -197,6 +197,16 @@ export default function PortfolioPage() {
                         <span>Settings</span>
                       </Link>
                       <div className="border-t border-gray-100 mt-2 pt-2">
+                        <Link
+                          href="/company/create"
+                          className="flex items-center gap-3 px-4 py-2.5 text-gray-700 hover:bg-gray-50 transition-colors"
+                          onClick={() => setProfileDropdownOpen(false)}
+                        >
+                          <Plus className="w-5 h-5" />
+                          <span>Create Company Page</span>
+                        </Link>
+                      </div>
+                      <div className="border-t border-gray-100 mt-2 pt-2">
                         <button
                           className="flex items-center gap-3 px-4 py-2.5 text-red-600 hover:bg-red-50 transition-colors w-full"
                           onClick={() => setProfileDropdownOpen(false)}
