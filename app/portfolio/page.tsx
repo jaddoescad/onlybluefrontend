@@ -23,6 +23,7 @@ import {
   Grid,
   List,
   Image as ImageIcon,
+  Briefcase,
 } from 'lucide-react'
 
 const navigationItems = [
@@ -30,7 +31,7 @@ const navigationItems = [
   { icon: User, label: 'Profile', href: '/profile' },
   { icon: FolderOpen, label: 'Portfolio', href: '/portfolio', active: true },
   { icon: Search, label: 'Explore', href: '/explore' },
-  { icon: Bookmark, label: 'Saved', href: '/saved' },
+  { icon: Briefcase, label: 'Jobs', href: '/jobs' },
 ]
 
 const categories = ['All', 'Residential', 'Commercial', 'Industrial', 'Repairs']

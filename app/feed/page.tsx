@@ -30,7 +30,7 @@ const navigationItems = [
   { icon: User, label: 'Profile', href: '/profile' },
   { icon: FolderOpen, label: 'Portfolio', href: '/portfolio' },
   { icon: Search, label: 'Explore', href: '/explore' },
-  { icon: Bookmark, label: 'Saved', href: '/saved' },
+  { icon: Briefcase, label: 'Jobs', href: '/jobs' },
 ]
 
 const posts = [
